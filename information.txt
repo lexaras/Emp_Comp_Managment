@@ -6,3 +6,5 @@ php artisan migrate
 Vartotojo sukūrimui ir testiniams duomenis naudoti "seeds"; ---> php artisan db:seed --class=DatabaseSeeder
 Galima seedinti ir atskiras klases(CompanySeeder, EmployeeSeeder), bet kad būtų paprasčiau, sukėliau viską tiesiog į DatabaseSeeder
 Norint patestuoti su daugiau duomenų, reikėtų pacloninti esamus duomenis(Nuimti validacijas nuo elektroninio pašto, tiek Companies tiek Employees controleriuose)
+
+Be registracijos galima pasiekti REST API
